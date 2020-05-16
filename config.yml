@@ -1,0 +1,16 @@
+title: Smart Agriculture system based on IoT
+description: Smart Agriculture system based on IoT
+template:
+  repo: smart-agriculture-system-based-on-iot-template
+  name: smart-agriculture-system-based-on-iot
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
